@@ -1,0 +1,42 @@
+*, html, body {
+    margin: 0;
+    color: #333;
+	--main-font: 'Noto Serif', sans-serif;
+	--main-font-size: 1.5rem;
+	--main-font-weight: normal;
+}
+
+.main-font {
+    font-family: var(--main-font);
+    font-size: var(--main-font-size);
+    font-weight: var(--main-font-weight);
+}
+
+.secondary-font {
+    font-family: var(--secondary-font), var(--main-font);
+    font-size: var(--secondary-font-size), var(--main-font-size);
+    font-weight: var(--secondary-font-weight), var(--main-font-weight);
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: var(--main-font);
+    font-size: var(--main-font-size);
+    font-weight: var(--main-font-weight);
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin:20em;
+}
+
+h1,h2,h3 {
+    font-family: var(--main-font);
+    font-weight: var(--main-font-weight);
+    font-size: var(--main-font-size);
+}
+
+h4,h5,h6, p, .settings, .settings a, .settings a:hover, .settings a:active, .settings a:visited {
+    font-family: var(--secondary-font), var(--main-font);
+    font-weight: var(--secondary-font-weight), var(--main-font-weight);
+    font-size: var(--secondary-font-size), var(--main-font-size);
+}
